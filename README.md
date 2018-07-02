@@ -9,12 +9,12 @@ Django实现的手机短信验证码+极验验证的小demo
 
 
  - 打开网站[互亿无线](http://user.ihuyi.com/login.html)注册一个账号，有50条免费短信
- - ![这里写图片描述](https://img-blog.csdn.net/20180427212411877?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+ - ![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104246.png)
  - 登录进去后会有以下页面
- ![这里写图片描述](https://img-blog.csdn.net/20180427212453261?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+ ![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104258.png)
  
  - 使用图中的APIID和APIKEY开启你的免费手机短信旅程，可以使用接口下载、接口帮助实现Django手机短信验证
- - ![这里写图片描述](https://img-blog.csdn.net/20180427212652343?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+ - ![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104310.png)
 # 开始我的短信教程
  
 1.注册页面加入两个文本框
@@ -155,14 +155,14 @@ def send_message(request):
 
 
 1.先到[极验验证网站](http://www.geetest.com/index)注册一个账号，登录上去
-![这里写图片描述](https://img-blog.csdn.net/20180427213855635?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104129.png)
 2.创建应用
-![这里写图片描述](https://img-blog.csdn.net/20180427214152296?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
-![这里写图片描述](https://img-blog.csdn.net/20180427214206936?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104144.png)
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104203.png)
 3.出现如下的id和key
-![这里写图片描述](https://img-blog.csdn.net/20180427214238316?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104218.png)
 4.可以根据安装指引自行学习，也可以按我步骤来
-![这里写图片描述](https://img-blog.csdn.net/20180427214345842?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104230.png)
 
 # 极验验证码
 
@@ -268,5 +268,6 @@ def pcgetcaptcha(request):
 
 ```
 
-成功后会出现极验验证码，显示正在加载时需要等待一下，请求别人的网络还没生成验证码，这个验证码已经自带校验是否输入验证码，验证码是否正确：
-![这里写图片描述](https://img-blog.csdn.net/20180427215032586?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoZW5odWExMTI1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+成功后会出现极验验证码，显示正在加载时需要等待一下，请求别人的网络还没生成验证码
+这个验证码已经自带校验是否输入验证码，验证码是否正确：
+![这里写图片描述](https://github.com/ChenJhua/GitHubImage/blob/master/GitHubImage/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20180702104324.png)
